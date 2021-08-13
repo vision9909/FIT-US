@@ -1,0 +1,119 @@
+<!--@layout(/layout/basic/main.html)-->
+
+<section class="mainVisual">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="item">
+                    <div class="here">
+                        <h2 class="text">BASE SKIN FASHION COLLECTION</h2>
+                        <a href="/product/list.html?cate_no=24" class="button">shop now</a>
+                    </div>
+                    <!-- PC image -->
+                    <picture class="RW">
+                        <source srcset="//img.echosting.cafe24.com/skin/skin_ko_KR/main/img_mainVisual1.webp" type="image/webp">
+                        <img src="//img.echosting.cafe24.com/skin/skin_ko_KR/main/img_mainVisual1.jpg" width="100%" height="100%" alt="main banner">
+                    </picture>
+                    <!-- tablet image -->
+                    <picture class="RTB">
+                        <source srcset="//img.echosting.cafe24.com/skin/skin_ko_KR/main/img_mainVisual1_t.webp" type="image/webp" />
+                        <img src="//img.echosting.cafe24.com/skin/skin_ko_KR/main/img_mainVisual1_t.jpg" width="100%" height="100%" alt="main banner">
+                    </picture>
+                    <!-- mobile image -->
+                    <picture class="RMB">
+                        <source srcset="//img.echosting.cafe24.com/skin/skin_ko_KR/main/img_mainVisual1_m.webp" type="image/webp" />
+                        <img src="//img.echosting.cafe24.com/skin/skin_ko_KR/main/img_mainVisual1_m.jpg" width="100%" height="100%" alt="main banner">
+                    </picture>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="item">
+                    <div class="here">
+                        <h2 class="text">BASE SKIN FASHION COLLECTION</h2>
+                        <a href="/product/list.html?cate_no=24" class="button">shop now</a>
+                    </div>
+                    <!-- PC image -->
+                    <picture class="RW">
+                        <source srcset="//img.echosting.cafe24.com/skin/skin_ko_KR/main/img_mainVisual2.webp" type="image/webp">
+                        <img src="//img.echosting.cafe24.com/skin/skin_ko_KR/main/img_mainVisual2.jpg" width="100%" height="100%" alt="main banner">
+                    </picture>
+                    <!-- tablet image -->
+                    <picture class="RTB">
+                        <source srcset="//img.echosting.cafe24.com/skin/skin_ko_KR/main/img_mainVisual2_t.webp" type="image/webp" />
+                        <img src="//img.echosting.cafe24.com/skin/skin_ko_KR/main/img_mainVisual2_t.jpg" width="100%" height="100%" alt="main banner">
+                    </picture>
+                    <!-- mobile image -->
+                    <picture class="RMB">
+                        <source srcset="//img.echosting.cafe24.com/skin/skin_ko_KR/main/img_mainVisual2_m.webp" type="image/webp" />
+                        <img src="//img.echosting.cafe24.com/skin/skin_ko_KR/main/img_mainVisual2_m.jpg" width="100%" height="100%" alt="main banner">
+                    </picture>
+                </div>    
+            </div>
+        </div>
+        <div class="swiper-control">
+            <div class="swiper-pagination"></div>
+            <button type="button" class="swiper-button-pause">멈춤</button>
+            <button type="button" class="swiper-button-play">재생</button>
+        </div>
+        <div class="swiper-button-next">다음</div>
+        <div class="swiper-button-prev">이전</div>
+    </div>
+</section>
+
+<section class="collection">
+    <div class="collection-item">
+        <a href="/product/list.html?cate_no=24">
+            <picture>
+                <source srcset="//img.echosting.cafe24.com/skin/skin_ko_KR/main/img_collection1.webp" type="image/webp">
+                <img src="//img.echosting.cafe24.com/skin/skin_ko_KR/main/img_collection1.jpg" width="100%" height="100%" alt="banner1" loading="lazy">
+            </picture>
+        </a>
+    </div>
+    <div class="collection-item">
+        <a href="/product/list.html?cate_no=24">
+            <picture>
+                <source srcset="//img.echosting.cafe24.com/skin/skin_ko_KR/main/img_collection2.webp" type="image/webp">
+                <img src="//img.echosting.cafe24.com/skin/skin_ko_KR/main/img_collection2.jpg" width="100%" height="100%" alt="banner2" loading="lazy">
+            </picture>
+        </a>
+    </div>
+    <div class="collection-item">
+        <a href="/product/list.html?cate_no=24">
+            <picture>
+                <source srcset="//img.echosting.cafe24.com/skin/skin_ko_KR/main/img_collection3.webp" type="image/webp">
+                <img src="//img.echosting.cafe24.com/skin/skin_ko_KR/main/img_collection3.jpg" width="100%" height="100%" alt="banner3" loading="lazy">
+            </picture>
+        </a>
+    </div>
+</section>
+
+<section class="productItem">
+    
+    <div module="product_listmore_1" class="more">
+        <a href="#none" onclick="{$more_action}" class="btnMore">
+            더보기<span id="more_current_page_{$display_group}">{$current_page}</span>/<span id="more_total_page_{$display_group}">{$total_page}</span>
+            <i aria-hidden="true" class="icon icoArrowBottom"></i>
+        </a>
+    </div>
+</section>
+
+<!-- New Arrivals -->
+
+
+<!--Special Item-->
+
+<section class="projectItem">
+    <div module="Layout_project">
+        <!--@css(/css/module/layout/project.css)-->
+        <div class="mainTitle">
+            <h2>기획전</h2>
+        </div>
+        <ul>
+            <li><a href="{$link_product_project}"><img src="{$category_image}" alt="기획전" loading="lazy" width="100%" height="100%"/></a></li>
+            <li><a href="{$link_product_project}"><img src="{$category_image}" alt="기획전" loading="lazy" width="100%" height="100%"/></a></li>
+        </ul>
+    </div>
+</section>
+
+
+<!--@define(cmc_log)-->
