@@ -1,4 +1,8 @@
-.navigation__category { margin:0 150px; text-align:center; }
+.header {background: #1a1a1a; padding: 0 1.875rem; position: relative; display: -ms-flexbox; display: flex; -ms-flex-pack: justify; -ms-flex-align: center; align-items: center; box-sizing: inherit; justify-content: space-between;}
+
+.navigation__category { margin:0 0; text-align:center;}
+.navigation__category RW {justify-content: space-evenly;}
+.navigation__category ul { display: block; list-style-type: disc; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; padding-inline-start: 40px;}
 .navigation__category li { display:inline-block; margin:0 19px; padding:23px 0 20px; }
 .navigation__category li a { display:inline-block; font-size:13px; line-height:20px; }
 .navigation__category li a:hover { text-decoration:none; }

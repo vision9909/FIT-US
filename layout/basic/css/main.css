@@ -109,7 +109,7 @@ main#contents {display: block;}
 }
 
 /********************* Mobile / Tablet *********************/
-@media all and (max-width:1024px) {
+@media all and (max-width:768px) {
     #header {background: #1a1a1a;}
     .headlogo { display: inline-block }
     .topArea {background: #1a1a1a;}
@@ -135,7 +135,7 @@ main#contents {display: block;}
 }
 
 /********************* Tablet *********************/
-@media all and (min-width:768px) and (max-width:1024px) {
+@media all and (min-width:768px) and (max-width:819px) {
     .gInner {margin: 0 24px;}
     .mainTitle {margin: 115px 0 0;}
     .mainTitle h2 { font-size:30px; }
@@ -156,18 +156,17 @@ main#contents {display: block;}
 }
 
 /********************* Tablet / PC *********************/
-@media all and (min-width:1025px) {
+@media all and (min-width:820px) {
     .mainTitle h2 { font-size:30px; }
 }
 
 /********************* PC *********************/
-@media all and (min-width:1025px) {
-    #header {background: #1a1a1a;}
-    .headlogo { display: inline-block; }
-    .topArea {background: #1a1a1a;}
-    .topArea li a{ color: white;}
-    .inner { display: inline-block; width: 90%;}
-    .navigation__util { display: flex; }
+@media all and (min-width:820px) {
+    .logo { display: inline-block; text-align:left;}
+    .nav1 { display: inline-block; text-align:center;}
+    .nav1 li a{ color: white;}
+    .nav2 { display: inline-block; padding-left: 1%; text-align:right;}
+    .nav2 a{ display: inline-block; }
 
     .mainTitle h2 { margin-bottom: 52px; }
     .btnMore { padding:18px 40px; font-size:15px;}

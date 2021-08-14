@@ -25,7 +25,7 @@
 }
 
 /********************* Mobile / Tablet *********************/
-@media all and (max-width:1024px) {
+@media all and (max-width:767px) {
     /* responsive class */
 	.RW { display:none !important; }
     .RTMB { display:block !important; }
@@ -66,7 +66,7 @@
 }
 
 /********************* Tablet *********************/
-@media all and (min-width:768px) and (max-width:1024px) {
+@media all and (min-width:768px) and (max-width:819px) {
     /* responsive class */
     .RMB { display:none !important; }
     .RMI { display:none !important; }
@@ -77,7 +77,7 @@
 }
 
 /********************* PC *********************/
-@media all and (min-width:1025px) {
+@media all and (min-width:820px) {
     /* responsive class */
     .RMB { display:none !important; }
     .RMI { display:none !important; }
@@ -85,7 +85,8 @@
     .RTMI { display:none !important; }
     .RTMB { display:none !important; }
     
-    #header { padding:0 49px; transition:.5s; }
+    #header {background: #1a1a1a; width: 100%; padding: 0 1.875rem; position: relative; display: -ms-flexbox; display: flex; -ms-flex-pack: justify; -ms-flex-align: center; align-items: center; box-sizing: inherit; justify-content: space-between;}
+    #header { transition:.5s; }
     #header.fixed { overflow:hidden; position:fixed; top:0; width:100%; height:60px; z-index:1000; transition:.5s; }
 	#header.fixed .navigation { position:absolute; top:0; left:49px; right:49px; background:#fff; }
     #header .navigation { position:relative; min-height:64px; }
@@ -95,8 +96,8 @@
     main#contents { max-width:100%; margin:0 50px; padding:0 0 44px; }
     section.gInner { max-width:1240px; margin:0 auto; }
 
-    #footer { padding:40px 0 44px; }
-    #footer:before { content:""; display:block; position:absolute; bottom:100px; left:0; right:0; border-top:1px solid #e0e0e0; }
+    #footer { padding:40px 0 44px; background: #1a1a1a;}
+    #footer:before { content:""; display:block; position:absolute; bottom:100px; left:0; right:0; }
     #footer .inner { max-width:1340px; margin:0 auto; padding:0 50px; }
     
     #quick { z-index:10; position:absolute; top:284px; right:51px; width:93px; background:#fff; box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25); }
