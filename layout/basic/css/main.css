@@ -87,6 +87,14 @@ main#contents {display: block;}
 
 /********************* Mobile *********************/
 @media all and (max-width:767px) {
+    .headlogo { display: inline-block;}
+    .topArea {background: #1a1a1a; text-align:center;}
+    .topArea li a{ color: white;}
+    .logo { display: flex; text-align:center; width: 30%;}
+    .header {background: #1a1a1a; height: 90px; display: -ms-flexbox; display: flex; -ms-flex-pack: justify; -ms-flex-align: center; align-items: right; box-sizing: inherit;}
+    .btnNaveNavFold { height:100%; font-size: .8125rem;}
+    .icon.icoNav {color: white}
+
     .gInner {margin: 0 16px;}
     .mainTitle {margin-top: 70px;}
     .mainTitle h2 { font-size: 22px;}
@@ -110,10 +118,26 @@ main#contents {display: block;}
 
 /********************* Mobile / Tablet *********************/
 @media all and (max-width:768px) {
-    #header {background: #1a1a1a;}
-    .headlogo { display: inline-block }
+    #header {background: #575555;}
+    .headlogo { display: inline-block; align-items: right; }
     .topArea {background: #1a1a1a;}
     .topArea li a{ color: white;}
+    .header {background: #1a1a1a; display: -ms-flexbox; display: flex; -ms-flex-pack: justify; -ms-flex-align: center; align-items: center; box-sizing: inherit; justify-content:space-evenly;}
+    .NavFold {padding-left: 3%; padding-right: 7%; justify-content:flex-start; width: 25%; display: inline-block; }
+    .btnNaveNavFold { height:90px; font-size: .8125rem;border: none;
+        outline: none;
+        margin: 0;
+        cursor: pointer;
+        background: none;
+        padding: 0;
+        min-height: 0;}
+
+    .logo { display: inline-block; justify-content:center; width: 40%}
+    .nav1 { display: inline-block; text-align:center;}
+    .nav1 li a{ color: white;}
+    .nav2 { display: inline-block; padding-left: 1%; text-align:right; padding: 7% 3%; width: 25%;}
+    .menu1 { display: inline-block; }
+    .menu2 { display: none;}
 
     .mainTitle h2 {margin-bottom: 20px;}
 	.swiper-button-next, .swiper-button-prev{ display: none; }
@@ -136,6 +160,15 @@ main#contents {display: block;}
 
 /********************* Tablet *********************/
 @media all and (min-width:768px) and (max-width:819px) {
+    .header {background: #1a1a1a; padding: 0 1.875rem; height: 90px; position: relative; display: -ms-flexbox; display: flex; -ms-flex-pack: justify; -ms-flex-align: center; align-items: center; box-sizing: inherit; justify-content: space-between;}
+    .logo { display: inline-block; text-align:left;}
+    .nav1 { display: inline-block; text-align:center; height: 90px;}
+    .nav1 li a{ color: white;}
+    .nav2 { display: inline-block; padding-left: 1%; text-align:right;}
+    .nav2 a{ display: inline-block; }
+    .NavFold { display: none; }
+    .navigation {  height: 90px; text-align:center; display: inline-block;}
+
     .gInner {margin: 0 24px;}
     .mainTitle {margin: 115px 0 0;}
     .mainTitle h2 { font-size:30px; }
@@ -162,11 +195,14 @@ main#contents {display: block;}
 
 /********************* PC *********************/
 @media all and (min-width:820px) {
+    .header {background: #1a1a1a; padding: 0 1.875rem; height: 90px; position: relative; display: -ms-flexbox; display: flex; -ms-flex-pack: justify; -ms-flex-align: center; align-items: center; box-sizing: inherit; justify-content: space-between;}
     .logo { display: inline-block; text-align:left;}
-    .nav1 { display: inline-block; text-align:center;}
+    .nav1 { display: inline-block; text-align:center; height: 90px;}
     .nav1 li a{ color: white;}
     .nav2 { display: inline-block; padding-left: 1%; text-align:right;}
     .nav2 a{ display: inline-block; }
+    .NavFold { display: none; }
+    .navigation {  height: 90px; text-align:center; display: inline-block;}
 
     .mainTitle h2 { margin-bottom: 52px; }
     .btnMore { padding:18px 40px; font-size:15px;}
